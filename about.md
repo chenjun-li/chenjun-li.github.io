@@ -8,18 +8,6 @@ layout: page
 
 <p>My research interests lie in the broad field machine learning, computer vision and medical image analysis. Feel free to leave me a message!</p>
 
-<h2>Skills</h2>
-
-<ul class="skill-list">
-	<li>Python (deep learning)</li>
-	<li>C++/C (algorithm contests)</li>
-	<li>Hyperledger Fabric (in Golang)</li>
-	<li>LaTeX</li>
-	<li>Spice, EDA (circuit simulation)</li>
-	<li>Medical Image Processing, Slicer3D, FreeSurfer (still learning)</li>
-</ul>
-
-<h2>Projects</h2>
 
 <ul>
 <!-- 	<li><a href="https://github.com/">Lorem Lorem</a></li> -->
