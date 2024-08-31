@@ -1,3 +1,12 @@
+---
+layout: page
+title: Home
+---
+<body>
+
+<!-- Other content of the page -->
+
+<!-- Footer section -->
 <footer class="footer-main">
     {{ site.title }} © {{ site.time | date: '%Y' }}
 
@@ -5,9 +14,40 @@
         <i class="fa-solid fa-rss"></i>
     </a>
 
+    <!-- Container for the plugin -->
+    <div id="clustrmap-container">
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=FGUlv1td6SYQH1J7Pv0SNgXXMmfRtnVAVVWhh4q0jLc"></script>
+    </div>
+
+    <!-- Optionally include other footer content -->
     <!-- <p class="extra">
         <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a>
         by
         <a class="link" href="https://github.com/sergiokopplin/indigo">Kopplin</a>
     </p> -->
 </footer>
+
+<!-- Add CSS styles -->
+<style>
+  .footer-main {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Customize the background color */
+    position: relative;
+  }
+
+  #clustrmap-container {
+    margin-top: 20px; /* Space between text and plugin */
+    width: 300px; /* Adjust the width */
+    height: 300px; /* Adjust the height */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #clustrmap-container script {
+    width: 10%;
+    height: 10%;
+  }
+</style>
+
+</body>
