@@ -38,15 +38,15 @@ twitter: mytwitter
 instagram: myinstagram
 linkedin: mylinkedin
 github: mygithub
-email: chenjun.li@outlook.com
+email: mattli0231@gmail.com
 
 authors:
-  johndoe:
+  Matt:
     name: Matt (Chenjun) Li
     bio: 
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
+    twitter: Matt
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
