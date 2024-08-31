@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Hi There, my name is Chenjun Li, currently an undergrad studying Electrical and Electronic Engineering at University of Electronic Science and Technology of China. I love travelling, playing badminton and photography.</p>
+<p>Hi there, I am currently a PhD student in the school of Electrical and Computer Engineering, Cornell University. I obtained my BEng degree from a joint school between University of Electronic Science and Technology of China and University of Glasgow. I love travelling, playing badminton and photography.</p>
 
 <p>Feel free to leave me a message!</p>
 
