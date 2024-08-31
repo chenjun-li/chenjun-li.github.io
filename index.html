@@ -4,26 +4,42 @@ title: Home
 ---
 <body>
 
-<!-- 容器包裹插件 -->
+<!-- Container for the plugin -->
 <div id="clustrmap-container">
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=FGUlv1td6SYQH1J7Pv0SNgXXMmfRtnVAVVWhh4q0jLc"></script>
 </div>
 
-<!-- 添加CSS样式 -->
+<!-- Page content -->
+<div id="content">
+  <p>This is some text content that will appear above the plugin image.</p>
+  <p>More text content...</p>
+</div>
+
+<!-- Add CSS styles -->
 <style>
+  body {
+    position: relative; /* Ensure the parent container is positioned */
+  }
+
   #clustrmap-container {
-    position: fixed; /* 固定在屏幕底部 */
+    position: absolute;
     bottom: 10%;
     left: 50%;
-    transform: translateX(-50%); /* 水平居中 */
-    width: 300px; /* 设定宽度 */
-    height: 300px; /* 设定高度 */
-    text-align: center;
+    transform: translateX(-50%);
+    width: 300px; /* Adjust width */
+    height: 300px; /* Adjust height */
+    z-index: -1; /* Place the plugin image behind the text */
+    opacity: 0.5; /* Make the plugin image semi-transparent */
+  }
+
+  #content {
+    position: relative;
+    z-index: 1; /* Ensure the text content appears above the plugin image */
   }
 
   #clustrmap-container script {
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
   }
 </style>
 
