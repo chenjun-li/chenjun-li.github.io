@@ -2,29 +2,6 @@
 <body>
 
 <!-- Other content of the page -->
-
-<!-- Footer section -->
-<footer class="footer-main">
-    <!-- First, display the site title and RSS link -->
-    {{ site.title }} © {{ site.time | date: '%Y' }}
-
-    <a class="link" href="{{ site.url }}/feed.xml" target="_blank">
-        <i class="fa-solid fa-rss"></i>
-    </a>
-
-    <!-- Optional other footer content -->
-    <!-- <p class="extra">
-        <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a>
-        by
-        <a class="link" href="https://github.com/sergiokopplin/indigo">Kopplin</a>
-    </p> -->
-
-    <!-- Then, display the plugin -->
-    <div id="clustrmap-container">
-        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=FGUlv1td6SYQH1J7Pv0SNgXXMmfRtnVAVVWhh4q0jLc"></script>
-    </div>
-</footer>
-
 <!-- Add CSS styles -->
 <style>
   .footer-main {
@@ -47,5 +24,29 @@
     height: 10%;
   }
 </style>
+    
+<!-- Footer section -->
+<footer class="footer-main">
+    <!-- First, display the site title and RSS link -->
+    {{ site.title }} © {{ site.time | date: '%Y' }}
+
+    <a class="link" href="{{ site.url }}/feed.xml" target="_blank">
+        <i class="fa-solid fa-rss"></i>
+    </a>
+
+    <!-- Optional other footer content -->
+    <!-- <p class="extra">
+        <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a>
+        by
+        <a class="link" href="https://github.com/sergiokopplin/indigo">Kopplin</a>
+    </p> -->
+
+    <!-- Then, display the plugin -->
+    <div id="clustrmap-container">
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=FGUlv1td6SYQH1J7Pv0SNgXXMmfRtnVAVVWhh4q0jLc"></script>
+    </div>
+</footer>
+
+
 
 </body>
