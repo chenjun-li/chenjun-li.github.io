@@ -27,6 +27,10 @@ permalink: /:title/
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
 
+research: true
+
+gallery: true
+
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: github # enter this from your disqus account
