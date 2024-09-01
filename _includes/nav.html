@@ -1,33 +1,33 @@
 <head>
-    
- .nav {
-    display: flex;
-    justify-content: space-between; /* Distribute items evenly */
-    align-items: center;
-}
-
-.list {
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-between; /* Ensure even spacing between buttons */
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.item {
-    flex-grow: 1; /* Each item takes up an equal amount of space */
-    text-align: center; /* Center the text within each item */
-}
-
-.link {
-    display: block;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    color: inherit;
-}
-
+    <style>
+        .nav {
+            display: flex;
+            justify-content: space-between; /* Distribute items evenly */
+            align-items: center;
+        }
+        
+        .list {
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-between; /* Ensure even spacing between buttons */
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        
+        .item {
+            flex-grow: 1; /* Each item takes up an equal amount of space */
+            text-align: center; /* Center the text within each item */
+        }
+        
+        .link {
+            display: block;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
 </head>
 
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
