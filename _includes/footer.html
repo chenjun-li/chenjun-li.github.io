@@ -1,21 +1,27 @@
 <body>
 
+<!-- Other content of the page -->
+
 <!-- Footer section -->
 <footer class="footer-main">
-
-    <!-- Plugin container -->
+    <!-- First, display the plugin -->
     <div id="clustrmap-container">
         <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=FGUlv1td6SYQH1J7Pv0SNgXXMmfRtnVAVVWhh4q0jLc"></script>
     </div>
-    
-    <!-- Site title and RSS link -->
+
+    <!-- Then, display the site title and RSS link -->
     {{ site.title }} © {{ site.time | date: '%Y' }}
 
     <a class="link" href="{{ site.url }}/feed.xml" target="_blank">
         <i class="fa-solid fa-rss"></i>
     </a>
 
-
+    <!-- Optional other footer content -->
+    <!-- <p class="extra">
+        <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a>
+        by
+        <a class="link" href="https://github.com/sergiokopplin/indigo">Kopplin</a>
+    </p> -->
 </footer>
 
 <!-- Add CSS styles -->
@@ -28,34 +34,17 @@
   }
 
   #clustrmap-container {
+    margin-bottom: 20px; /* Space between plugin and text */
     width: 300px; /* Adjust the width */
     height: 300px; /* Adjust the height */
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+
+  #clustrmap-container script {
+    width: 10%;
+    height: 10%;
   }
 </style>
-
-<!-- JavaScript to enforce the size of the plugin -->
-<script>
-    window.onload = function() {
-        // Find the plugin script element
-        var clustrmap = document.getElementById('clstr_globe');
-        
-        // If the plugin exists, enforce the size
-        if (clustrmap) {
-            var container = clustrmap.parentElement;
-            container.style.width = '250px';
-            container.style.height = '250px';
-            
-            // Check if the plugin inserts an iframe or other elements and resize them
-            var iframe = container.querySelector('iframe');
-            if (iframe) {
-                iframe.style.width = '10%';
-                iframe.style.height = '10%';
-            }
-        }
-    };
-</script>
 
 </body>
