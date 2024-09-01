@@ -6,7 +6,7 @@ layout: page
 
 <p>Hi there, I am currently a PhD student in the school of Electrical and Computer Engineering, Cornell University. I obtained my BEng degree from a joint school between University of Electronic Science and Technology of China and University of Glasgow. I love travelling, playing badminton and photography.</p>
 
-<p>My research interests lie in the broad field machine learning, computer vision and medical image analysis. Feel free to leave me a message!</p>
+<p>My research interests lie in the broad field of machine learning, computer vision and medical image analysis. Feel free to leave me a message!</p>
 
 
 <ul>
