@@ -39,13 +39,13 @@
             </li>
         {% endif %}
 
-        {% if site.blog == true %}
+<!--         {% if site.blog == true %}
             {% if page.title != "Blog" %}
                 <li class="item">
                     <a class="link" href="{{ site.url }}/blog">Blog</a>
                 </li>
             {% endif %}
-        {% endif %}
+        {% endif %} -->
 
         {% if site.projects == true %}
             {% if page.title != "Projects" %}
@@ -55,12 +55,12 @@
             {% endif %}
         {% endif %}
 
-<!--         {% if site.resume == true %}
+        {% if site.resume == true %}
             <li class="item">
                 <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">CV</a>
             </li>
         {% endif %}
-         -->
+        
         {% if site.about == true %}
             {% if page.title != "About" %}
                 <li class="item">
