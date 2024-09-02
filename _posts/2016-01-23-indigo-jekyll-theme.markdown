@@ -1,8 +1,8 @@
 ---
-title: "Uncertainty"
+title: "[ISMRM 2024] Uncertainty-Aware Brain Parcellation using dMRI"
 layout: post
-date: 2016-01-23 22:10
-tag: jekyll
+date: 2024-09-01 10:00
+tag: MRI
 image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: true
 projects: true
