@@ -3,11 +3,11 @@ title: "[ISMRM 2024] Uncertainty-Aware Brain Parcellation using dMRI"
 layout: post
 date: 2024-09-01 10:00
 tag: MRI
-image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
+image: image: /assets/images/research-paper.jpg
 headerImage: true
 projects: true
 hidden: true
-description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+description: "The proposed approach enables improved accuracy in brain parcellation from diffusion MRI, facilitating the understanding of the human brain in health and disease. It may also serve as an effective tool for brain abnormality detection, fostering inquiries into uncertainty-quantified diagnostics."
 category: research
 author: Matt Li
 externalLink: false
