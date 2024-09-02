@@ -13,7 +13,7 @@ pagination:
 		{% for post in paginator.posts %}
 			{% if post.category == 'research' %}
 				{% if post.hidden != true %}
-					{% include blog-post.html %}
+					{% include research-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
