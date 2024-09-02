@@ -3,7 +3,7 @@ title: "[ISMRM 2024] Uncertainty-Aware Brain Parcellation using dMRI"
 layout: post
 date: 2024-09-01 10:00
 tag: MRI
-image: image: /assets/images/research-paper.jpg
+image: /assets/images/research-paper.jpg
 headerImage: true
 projects: true
 hidden: true
