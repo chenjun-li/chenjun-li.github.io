@@ -49,6 +49,7 @@ body {
 
 .gallery-item {
     position: relative;
+    height: auto; 
     overflow: hidden;
     cursor: pointer;
     border-radius: 10px;
