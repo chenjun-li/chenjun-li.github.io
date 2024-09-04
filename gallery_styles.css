@@ -9,6 +9,12 @@ body {
     background-color: #f4f4f4;
 }
 
+.sort-bar {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -44,6 +50,7 @@ body {
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s ease;
+    flex-direction: column;
 }
 
 .gallery-item:hover .overlay {
@@ -54,4 +61,23 @@ body {
     color: #fff;
     font-size: 18px;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.like-btn {
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.like-btn:hover {
+    background-color: #e91e63;
+}
+
+.like-count {
+    font-weight: bold;
 }
