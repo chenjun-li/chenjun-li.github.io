@@ -7,26 +7,39 @@ title: Gallery
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photos</title>
-    <link rel="stylesheet" href="/gallery_styles.css">
+    <title>Photography Gallery</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="gallery">
-        <div class="gallery-item">
-            <img src="/assets/images/pic1.jpg" alt="photo 1">
-            <div class="overlay">
-                <div class="text">description 1</div>
-            </div>
-        </div>
-        <div class="gallery-item">
-            <img src="/assets/images/pic2.jpg" alt="photo 2">
-            <div class="overlay">
-                <div class="text">description 1</div>
-            </div>
-        </div>
-        <!-- More -->
+    <!-- Sorting Control Bar -->
+    <div class="sort-bar">
+        <label for="sort-order">Sort by:</label>
+        <select id="sort-order">
+            <option value="random">Random</option>
+            <option value="likes">Likes</option>
+        </select>
     </div>
 
-    <script src="/gallery_scripts.js"></script>
+    <!-- Gallery Section -->
+    <div class="gallery">
+        <div class="gallery-item" data-likes="5">
+            <img src="/assets/images/pic1.jpg" alt="Photo 1">
+            <div class="overlay">
+                <div class="text">Description for Photo 1</div>
+                <button class="like-btn">Like (<span class="like-count">5</span>)</button>
+            </div>
+        </div>
+        <div class="gallery-item" data-likes="3">
+            <img src="/assets/images/pic2.jpg" alt="Photo 2">
+            <div class="overlay">
+                <div class="text">Description for Photo 2</div>
+                <button class="like-btn">Like (<span class="like-count">3</span>)</button>
+            </div>
+        </div>
+        <!-- Add more gallery items here -->
+    </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
+
