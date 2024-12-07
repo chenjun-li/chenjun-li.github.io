@@ -29,7 +29,7 @@ permalink: /:title/
 
 research: true
 
-gallery: true
+gallery: false
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
